@@ -17,6 +17,6 @@ let fuel x =
 
   (* calcul du fuel requis pour chaque input puis somme*)
 let solve =
-  List.fold_left (+) 0 (List.map fuel input);;
+  List.fold_left (+) 0 (List.map fuel input)
 
-Printf.printf "Réponse : %i\n" solve
+let _= Printf.printf "Réponse : %i\n" solve
